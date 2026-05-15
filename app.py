@@ -1,10 +1,9 @@
 import datetime
 
-def salam():
-    indi=datetime.datetime.now()
-    print(f"Salam! Hazirki vaxt: {indi}")
-    print("Bu menim ilk Docker tetbiqimdir")
+def greet():
+    now = datetime.datetime.now()
+    print(f"Hello! Current time: {now}")
+    print("This is my first Docker application!")
 
-if __name__=="__main__":
-    salam()
-
+if __name__ == "__main__":
+    greet()
